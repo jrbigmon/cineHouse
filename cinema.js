@@ -10,6 +10,6 @@ var listarFilmesEmCartaz = require('./metodos/listarFilmesEmCartaz');
 // console.log(alterarStatus(catalogo_1, 2))
 // console.table(buscarFilme(catalogo_1, 1))
 // console.table(listarFilmesEmCartaz(catalogo_1))
-// console.table(listarTodosOsFilmes(catalogo_1))
+console.table(listarTodosOsFilmes(catalogo_1))
 
 
