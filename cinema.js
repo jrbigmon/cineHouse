@@ -7,7 +7,7 @@ const listarTodosOsFilmes = require('./metodos/listarTodosOsFilmes');
 const listarFilmesEmCartaz = require('./metodos/listarFilmesEmCartaz');
 const filmesLongaDuracao = require('./metodos/filmesLongaDuracao');
 
-console.log(filmesLongaDuracao(catalogo_1, 100))
+console.table(filmesLongaDuracao(catalogo_1, 130))
 // console.table(adicionarFilme(catalogo_1, "Venon, carnificina", 100, "ManoBrown", 2020, false))
 // alterarStatus(catalogo_1, 1)
 // console.table(buscarFilme(catalogo_1, 2))
