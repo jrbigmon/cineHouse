@@ -7,11 +7,11 @@ const listarTodosOsFilmes = require('./metodos/listarTodosOsFilmes');
 const listarFilmesEmCartaz = require('./metodos/listarFilmesEmCartaz');
 const filmesLongaDuracao = require('./metodos/filmesLongaDuracao');
 
-console.table(filmesLongaDuracao(catalogo_1, 130))
+// console.table(filmesLongaDuracao(catalogo_1, 130))
 // console.table(adicionarFilme(catalogo_1, "Venon, carnificina", 100, "ManoBrown", 2020, false))
 // alterarStatus(catalogo_1, 1)
 // console.table(buscarFilme(catalogo_1, 2))
-// console.table(listarFilmesEmCartaz(catalogo_1))
+console.table(listarFilmesEmCartaz(catalogo_1, false))
 // console.table(listarTodosOsFilmes(catalogo_1))
 
 
